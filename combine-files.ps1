@@ -4,7 +4,7 @@ $CurrentDirectory = Get-Location # The current directory where the script is exe
 $SkipBinaryFiles = $true         # Set to $true to skip binary files
 $BinaryFileExtensions = @(".exe", ".dll", ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".zip", ".rar", ".7z", ".pdf", ".mp3", ".mp4", ".avi", ".psd", ".class", ".jar", ".ico") # Extensions to consider as binary
 $ExcludeDirectories = @("node_modules", "obj", "bin", "Migrations") # Directories to exclude
-$ExcludeFiles = @("package-log.json", "Combine-Files.ps1", $OutputPath) # Files to exclude (including the script itself and the output)
+$ExcludeFiles = @("package-lock.json", "Combine-Files.ps1", $OutputPath) # Files to exclude (including the script itself and the output)
 $MaxDepth = -1 # Set -1 to go through entire structure, or set to a number for example - 3, to search only 3 subfolder levels
 
 
