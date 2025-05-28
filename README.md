@@ -22,7 +22,7 @@
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ziebamikolaj/PowerShell-FileCombiner.git
+   git clone https://github.com/ziebamikolaj/PowerShell-File-Combiner-for-LLM-Input
    ```
 2. Ensure you have PowerShell 5.1 or later installed (available on Windows or via PowerShell Core on macOS/Linux).
 3. Place the script (`Combine-Files.ps1`) in your project directory.
